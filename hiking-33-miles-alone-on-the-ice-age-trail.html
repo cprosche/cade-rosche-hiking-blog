@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              white: "rgb(220, 217, 212)",
+              black: "rgb(11, 12, 13)",
+            },
+            fontFamily: {
+              sans: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="icon" href="./public/C.png" type="image/png" />
+    <title>Cade Rosche</title>
+  </head>
+  <body class="bg-black text-white">
+    <header
+      class="container mx-auto flex justify-between items-center py-8 px-2"
+    >
+      <div>
+        <a href="/" class="text-2xl font-bold">Cade Rosche</a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/@caderosche" target="_blank"
+          >YouTube</a
+        >
+      </div>
+    </header>
+    <main class="container mx-auto px-2">
+      <h1 class="text-4xl mb-4">
+        Hiking on the Ice Age Trail | Mecan River Segment
+      </h1>
+      <p class="mb-4">April 30th, 2021</p>
+      <iframe
+        class="w-full aspect-video mb-8"
+        src="https://www.youtube.com/embed/6FVCuOVJ8mY?si=4f6E3J_eWRCVBZnW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p class="mb-4">
+        Hiking 33 miles on the Ice Age Trail and biking 23 miles in Northern
+        Wisconsin. It took me about 3 days to complete the hike and bike. I
+        hiked the Alta Junction, Harrison Hills, Parrish Hills, and Highland
+        Lakes segments.
+      </p>
+      <p class="mb-4">
+        Find more info on the trail here:
+        <a
+          href="https://iceagetrail.maps.arcgis.com/apps/webappviewer/index.html?id=5ff8f517b1e34d46bb70ed21b36286c6
+        "
+          >https://iceagetrail.maps.arcgis.com/apps/webappviewer/index.html?id=5ff8f517b1e34d46bb70ed21b36286c6</a
+        >
+      </p>
+      <ul class="mb-4">
+        <li>Alta Junction Segment - 1.2 Miles</li>
+        <li>Harrison Hills Segment - 14.5 Miles</li>
+        <li>Parrish Hills Segment - 12.0 Miles</li>
+        <li>Highland Lakes Segment - 5.9 Miles</li>
+        <li>Total: 33.6 Miles</li>
+      </ul>
+      <p class="mb-4">
+        I parked at the Alta Junction Segment southern parking lot and stashed
+        my bike in the woods at the end of the Highland Lakes Segment. Then I
+        biked back 23 miles.
+      </p>
+    </main>
+
+    <footer class="py-8 text-center">
+      <p>© 2024 Cade Rosche. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
