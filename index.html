@@ -24,6 +24,8 @@
       };
     </script>
     <!-- TODO: add favicon -->
+    <!-- TODO: responsive pass -->
+    <link rel="icon" href="./public/C.png" type="image/png" />
     <title>Cade Rosche</title>
   </head>
   <body class="bg-black text-white">
@@ -40,7 +42,7 @@
     <main>
       <section>
         <img
-          src="./hero.jpg"
+          src="./public/hero.jpg"
           alt="Cade Rosche in a stream"
           class="w-full h-[500px] object-cover"
         />
@@ -49,7 +51,7 @@
         class="container mx-auto flex justify-between items-center gap-16 py-16 px-8"
       >
         <div>
-          <h1 class="text-4xl font-bold mb-4">About Me</h1>
+          <h2 class="text-4xl font-bold mb-4">About Me</h2>
           <p class="text-lg">
             I'm Cade Rosche and I love to hike. In 2018, I did a 700 mile LASH
             of the Appalachian Trail, doing the first 1/3 of the trail. This
@@ -60,13 +62,55 @@
         </div>
         <div>
           <img
-            src="./about.jpg"
+            src="./public/about.jpg"
             alt="Cade Rosche on a mountain"
             class="w-full h-auto"
           />
         </div>
       </section>
       <!-- TODO: add hikes section -->
+      <section class="container mx-auto p-8">
+        <h2 class="text-4xl font-bold mb-8">Hikes</h2>
+        <div class="grid grid-cols-3 gap-x-8 gap-y-8">
+          <div>
+            <img
+              src="./public/ct-2021.jpg"
+              alt="hiking in Colorado in meadow with trees"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-bold mt-4">
+              Hiking 70 Miles Alone on the Colorado Trail | Denver to Kenosha
+              Pass
+            </h3>
+            <p class="text-sm">December 5th, 2020</p>
+          </div>
+          <div>
+            <img
+              src="./public/iat-june-2021.jpeg"
+              alt="hiking through stream in forest"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-bold mt-4">
+              Hiking 33 Miles Alone on the Ice Age Trail
+            </h3>
+            <p class="text-sm">June 6th, 2021</p>
+          </div>
+          <div>
+            <img
+              src="./public/iat-may-2021.jpeg"
+              alt="Hike 3"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-bold mt-4">Hike 3</h3>
+            <p class="text-sm">Date 3</p>
+          </div>
+          <div>
+            <img src="./hike4.jpg" alt="Hike 4" class="w-full h-auto" />
+            <h3 class="text-lg font-bold mt-4">Hike 4</h3>
+            <p class="text-sm">Date 4</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="py-8 text-center">
       <p>© 2024 Cade Rosche. All rights reserved.</p>
